@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../assets/cv.pdf'
+import resume from '../assets/resume.pdf'
 import styled from 'styled-components'
 import ScrollIntoView from 'react-scroll-into-view'
 
@@ -15,7 +15,7 @@ const Resume = () => {
     return (
         <Div data-aos="fade-up" data-aos-delay="300">
             <A className="resume"
-                onClick={() => window.open(cv)} 
+                onClick={() => window.open(resume)} 
                 target = "_blank" 
                 >Resume
             </A>
